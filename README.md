@@ -32,7 +32,7 @@ WORLD FOLDER -
 
 car.png,
 index.html,
-styles.css,
+styles.css.
 
 JS FOLDER -
 viewport.js,
