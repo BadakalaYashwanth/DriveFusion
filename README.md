@@ -14,67 +14,106 @@ Microsoft Windows [Version 10.0.22631.3737]
 (c) Microsoft Corporation. All rights reserved.
 
 Project Structure
-C:
-└───Neural Network Model
-    │   car.js
-    │   car.png
-    │   controls.js
-    │   index.html
-    │   main.js
-    │   miniMap.js
-    │   network.js
-    │   sensor.js
-    │   style.css
-    │   utils.js
-    │   visualizer.js
-    │
-    └───world
-        │   car.png
-        │   index.html
-        │   styles.css
-        │
-        ├───js
-        │   │   viewport.js
-        │   │   world.js
-        │   │
-        │   ├───editors
-        │   │       crossingEditor.js
-        │   │       graphEditor.js
-        │   │       lightEditor.js
-        │   │       markingEditor.js
-        │   │       parkingEditor.js
-        │   │       startEditor.js
-        │   │       stopEditor.js
-        │   │       targetEditor.js
-        │   │       yieldEditor.js
-        │   │
-        │   ├───items
-        │   │       building.js
-        │   │       tree.js
-        │   │
-        │   ├───markings
-        │   │       crossing.js
-        │   │       light.js
-        │   │       marking.js
-        │   │       parking.js
-        │   │       start.js
-        │   │       stop.js
-        │   │       target.js
-        │   │       yield.js
-        │   │
-        │   ├───math
-        │   │       graph.js
-        │   │       osm.js
-        │   │       utils.js
-        │   │
-        │   └───primitives
-        │           envelope.js
-        │           point.js
-        │           polygon.js
-        │           segment.js
-        │
-        └───saves
-                big. world
+
+Neural Network Model FOLDER
+
+1.car.js
+2.controls.js
+3.index.html
+4.main.js
+5.miniMap.js
+6.network.js
+7.sensor.js
+8.style.css
+9.utils.js
+10.visualizer.js
+car.png
+
+WORLD FOLDER
+
+car.png
+index.html
+styles.css
+
+JS FOLDER
+viewport.js
+world.js
+
+EDITORS FOLDER 
+crossingEditor.js
+graphEditor.js
+lightEditor.js
+markingEditor.js
+parkingEditor.js
+startEditor.js
+stopEditor.js
+targetEditor.js
+yieldEditor.js
+
+ITEM FOLDER
+building.js
+tree.js
+
+MARKING FOLDER
+crossing.js
+light.js
+marking.js
+parking.js
+start.js
+stop.js
+target.js
+yield.js
+        
+MATH FOLDER
+graph.js
+osm.js
+utils.js
+    
+PRIMITIVE FOLDER
+envelope.js
+point.js
+polygon.js
+segment.js
+        
 
 Getting Started
+1. Clone the repository
+git clone https://github.com/BadakalaYashwanth/Neural-Network-Languages-DriveSense-AI.git
+2. Open index.html in a web browser to start the simulation.
+
+Usage
+Start Simulation: Open the project in a browser to start the car simulation.
+Save Best Brain: Click the 'Save' button to save the best-performing car's neural network to local storage.
+Discard Brain: Click the 'Discard' button to remove the saved neural network from local storage.
+
+Technical Details
+Neural Network Languages (NNL):
+Neural Network: Each car is controlled by a neural network, which takes sensor inputs and determines the car's acceleration and steering.
+Training: Neural networks are trained through mutation, allowing cars to learn and improve their performance over time.
+
+Sensor Identification:
+Sensors: Each car is equipped with sensors that detect distances to the nearest road borders and obstacles.
+Data Processing: Sensor data is fed into the neural network, which processes the inputs and adjusts the car's behavior accordingly.
+
+This project was developed with inspiration and guidance from Radu Mariescu-Istodor, which helped me understand the math behind developing the model. His insights were invaluable in creating a real-life view and utilizing sensor NNL effectively. And using the Math behind it (vector 2d).
+
+How It Works
+
+Environment Generation:
+Roads, buildings, and trees are generated based on a graph structure.
+Roads are represented by segments, and buildings are placed alongside roads with defined spacing.
+
+Car Simulation:
+Each car is initialized with a neural network that controls its behavior.
+Cars navigate the environment using sensor data, adjusting their speed and direction based on neural network outputs.
+
+Neural Network Training:
+Initially, cars are equipped with randomly generated neural networks.
+The best-performing car's neural network can be saved and mutated to improve performance over time.
+
+Real-time Visualization:
+Car movements and neural network structures are visualized using HTML5 canvas elements.
+A minimap provides an overview of the entire environment, enhancing the visualization of car navigation.
+
+
 
