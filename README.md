@@ -28,51 +28,51 @@ utils.js,
 visualizer.js,
 car.png.
 
-WORLD FOLDER
+WORLD FOLDER -
 
-car.png
-index.html
-styles.css
+car.png,
+index.html,
+styles.css,
 
-JS FOLDER
-viewport.js
-world.js
+JS FOLDER -
+viewport.js,
+world.js.
 
-EDITORS FOLDER 
-crossingEditor.js
-graphEditor.js
-lightEditor.js
-markingEditor.js
-parkingEditor.js
-startEditor.js
-stopEditor.js
-targetEditor.js
-yieldEditor.js
+EDITORS FOLDER - 
+crossingEditor.js,
+graphEditor.js,
+lightEditor.js,
+markingEditor.js,
+parkingEditor.js,
+startEditor.js,
+stopEditor.js,
+targetEditor.js,
+yieldEditor.js.
 
-ITEM FOLDER
-building.js
-tree.js
+ITEM FOLDER -
+building.js,
+tree.js.
 
-MARKING FOLDER
-crossing.js
-light.js
-marking.js
-parking.js
-start.js
-stop.js
-target.js
-yield.js
+MARKING FOLDER -
+crossing.js,
+light.js,
+marking.js,
+parking.js,
+start.js,
+stop.js,
+target.js,
+yield.js.
         
-MATH FOLDER
-graph.js
-osm.js
-utils.js
+MATH FOLDER -
+graph.js,
+osm.js,
+utils.js.
     
-PRIMITIVE FOLDER
-envelope.js
-point.js
-polygon.js
-segment.js
+PRIMITIVE FOLDER -
+envelope.js,
+point.js,
+polygon.js,
+segment.js.
         
 
 Getting Started
