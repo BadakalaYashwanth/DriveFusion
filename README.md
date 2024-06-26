@@ -3,6 +3,10 @@
 Overview
 DriveSense AI is a JavaScript-based project utilizing Neural Network Languages (NNL) to simulate autonomous driving. The project incorporates sensor data to enable cars to navigate a generated environment, demonstrating concepts of AI and machine learning in a visually engaging manner.
 
+Here is the output of the model -
+http://127.0.0.1:5500/Neural%20Network%20Model/index.html
+
+
 Features
 Autonomous Car Simulation: Generate multiple AI-driven cars that navigate through a dynamically created world.
 Neural Networks: Implement neural networks to control car behavior, with the ability to load, save, and mutate networks.
