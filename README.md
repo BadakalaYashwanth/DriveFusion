@@ -15,19 +15,18 @@ Microsoft Windows [Version 10.0.22631.3737]
 
 Project Structure
 
-Neural Network Model FOLDER
-
-1.car.js
-2.controls.js
-3.index.html
-4.main.js
-5.miniMap.js
-6.network.js
-7.sensor.js
-8.style.css
-9.utils.js
-10.visualizer.js
-car.png
+Neural Network Model FOLDER - 
+car.js,
+controls.js,
+index.html,
+main.js,
+miniMap.js,
+network.js,
+sensor.js,
+style.css,
+utils.js,
+visualizer.js,
+car.png.
 
 WORLD FOLDER
 
