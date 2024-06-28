@@ -3,7 +3,7 @@
 Overview
 DriveSense AI is a JavaScript-based project utilizing Neural Network Languages (NNL) to simulate autonomous driving. The project incorporates sensor data to enable cars to navigate a generated environment, demonstrating concepts of AI and machine learning in a visually engaging manner.
 
-Output Of the Model, And refresh for the second,thrid and n case for the various result of training 
+Output Of the Model, And refresh for the second, third and nth case for the various results of training 
 http://127.0.0.1:5500/Neural%20Network%20Model/index.html
 
 
@@ -19,7 +19,7 @@ Microsoft Windows [Version 10.0.22631.3737]
 
 Project Structure
 
-Neural Network Model FOLDER - 
+1. Neural Network Model FOLDER - 
 car.js,
 controls.js,
 index.html,
@@ -32,17 +32,17 @@ utils.js,
 visualizer.js,
 car.png.
 
-WORLD FOLDER -
+2. WORLD FOLDER -
 
 car.png,
 index.html,
 styles.css.
 
-JS FOLDER -
+3. JS FOLDER -
 viewport.js,
 world.js.
 
-EDITORS FOLDER - 
+4. EDITORS FOLDER - 
 crossingEditor.js,
 graphEditor.js,
 lightEditor.js,
@@ -53,11 +53,11 @@ stopEditor.js,
 targetEditor.js,
 yieldEditor.js.
 
-ITEM FOLDER -
+5. ITEM FOLDER -
 building.js,
 tree.js.
 
-MARKING FOLDER -
+6. MARKING FOLDER -
 crossing.js,
 light.js,
 marking.js,
@@ -67,12 +67,12 @@ stop.js,
 target.js,
 yield.js.
         
-MATH FOLDER -
+7. MATH FOLDER -
 graph.js,
 osm.js,
 utils.js.
     
-PRIMITIVE FOLDER -
+8. PRIMITIVE FOLDER -
 envelope.js,
 point.js,
 polygon.js,
