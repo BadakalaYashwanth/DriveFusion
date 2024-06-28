@@ -1,10 +1,12 @@
 # Neural-Network-Languages-DriveSense-AI
 
 Overview
-DriveSense AI is a JavaScript-based project utilizing Neural Network Languages (NNL) to simulate autonomous driving. The project incorporates sensor data to enable cars to navigate a generated environment, demonstrating concepts of AI and machine learning in a visually engaging manner.
+DriveSense AI is a JavaScript-based project utilizing Neural Network Languages (NNL) to simulate autonomous driving. The project incorporates sensor data to enable cars to navigate a generated environment, demonstrating concepts of AI and machine learning visually engagingly.
 
 [Deploy Live Output, Netlify] -  
 [http://127.0.0.1:5500/Neural%20Network%20Model/index.html](https://667e8a87e6cd0309c3647fb5--shimmering-kashata-6053eb.netlify.app/)
+![Screenshot 2024-06-28 154551](https://github.com/BadakalaYashwanth/Neural-Network-Languages-DriveSense-AI/assets/170221536/1539f02f-ff8f-447b-9464-2ee7bc24c355)
+
 
 
 Features
