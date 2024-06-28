@@ -33,7 +33,6 @@ visualizer.js,
 car.png.
 
 2. WORLD FOLDER -
-
 car.png,
 index.html,
 styles.css.
